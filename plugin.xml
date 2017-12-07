@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-disable-draginteraction" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>DisableDragInteract</name>
+    <description>A plugin that disable the Drag Interaction feature in iOS 11</description>
+    <author>Gavin</author>
+    <license>MIT</license>
+    <keywords>Drag, Interaction, iOS 11</keywords>
+    <engines>
+        <engine name="cordova" version=">=6.0.0" />
+    </engines>
+    <platform name="ios">
+        <header-file src="src/ios/UIDragInteraction+Disabled.h" />
+        <source-file src="src/ios/UIDragInteraction+Disabled.m" />
+    </platform>
+</plugin>

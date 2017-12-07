@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "name": "cordova-plugin-disable-draginteraction",
+  "cordova_name": "DisableDragInteract",
+  "description": "A plugin that disable the Drag Interaction feature in iOS 11",
+  "platforms": [
+    "ios"
+  ],
+  "keywords": [
+    "Drag",
+    "Interaction",
+    "iOS 11"
+  ],
+  "author": "Gavin",
+  "license": "MIT"
+}
